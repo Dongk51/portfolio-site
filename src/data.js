@@ -30,11 +30,11 @@ export const CAREERS = [
 ];
 
 export const SKILLS = [
-  { category: 'DB', items: ['Oracle', 'MySQL'] },
-  { category: '언어', items: ['JavaScript', 'Python', 'Java', 'HTML', 'CSS', 'SQL'] },
-  { category: '프레임워크', items: ['React + Vite', 'FastAPI', 'Spring Boot', 'Tailwind CSS'] },
-  { category: '서버', items: ['Nginx', 'Docker', 'Docker Compose', 'Apache Tomcat'] },
-  { category: 'AI / ML', items: ['LLM', 'VLM', 'LoRA 파인튜닝'] },
+  { category: 'DB', items: ['Oracle', 'MySQL', 'PostgreSQL'] },
+  { category: '언어', items: ['JavaScript', 'TypeScript', 'Python', 'Java', 'HTML', 'CSS', 'SQL'] },
+  { category: '프레임워크', items: ['React + Vite', 'Next.js', 'Express.js', 'FastAPI', 'Spring Boot', 'Tailwind CSS'] },
+  { category: '서버', items: ['Nginx', 'Node.js', 'Supabase', 'Docker', 'Docker Compose', 'Apache Tomcat'] },
+  { category: 'AI / ML', items: ['LLM', 'VLM', 'LoRA 파인튜닝', 'Gemini API'] },
   { category: '협업툴', items: ['GitHub', 'Notion', 'Figma', 'Colab', 'Jupyter'] },
   { category: '개발도구', items: ['VS Code', 'Eclipse', 'IntelliJ IDEA', 'DBeaver', 'SQL Developer', 'Postman'] },
 ];
