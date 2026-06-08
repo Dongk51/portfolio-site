@@ -31,11 +31,12 @@ export const CAREERS = [
 
 export const SKILLS = [
   { category: 'DB', items: ['Oracle', 'MySQL'] },
-  { category: 'Language', items: ['JavaScript', 'Python', 'Java', 'HTML', 'CSS', 'SQL'] },
-  { category: 'Framework', items: ['React + Vite', 'FastAPI', 'Spring Boot', 'Tailwind CSS'] },
-  { category: 'Server', items: ['Nginx', 'Docker', 'Docker Compose'] },
-  { category: 'Collaboration', items: ['GitHub', 'Notion', 'Figma'] },
+  { category: '언어', items: ['JavaScript', 'Python', 'Java', 'HTML', 'CSS', 'SQL'] },
+  { category: '프레임워크', items: ['React + Vite', 'FastAPI', 'Spring Boot', 'Tailwind CSS'] },
+  { category: '서버', items: ['Nginx', 'Docker', 'Docker Compose', 'Apache Tomcat'] },
   { category: 'AI / ML', items: ['LLM', 'VLM', 'LoRA 파인튜닝'] },
+  { category: '협업툴', items: ['GitHub', 'Notion', 'Figma', 'Colab', 'Jupyter'] },
+  { category: '개발도구', items: ['VS Code', 'Eclipse', 'IntelliJ IDEA', 'DBeaver', 'SQL Developer', 'Postman'] },
 ];
 
 export const ABOUT_SECTIONS = [
