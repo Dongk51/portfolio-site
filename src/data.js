@@ -35,8 +35,8 @@ export const SKILLS = [
   { category: '프레임워크', items: ['React + Vite', 'Next.js', 'Express.js', 'FastAPI', 'Spring Boot', 'Tailwind CSS'] },
   { category: '서버', items: ['Nginx', 'Node.js', 'Supabase', 'Docker', 'Docker Compose', 'Apache Tomcat'] },
   { category: 'AI / ML', items: ['LLM', 'VLM', 'LoRA 파인튜닝', 'Gemini API'] },
-  { category: '협업툴', items: ['GitHub', 'Notion', 'Figma', 'Colab', 'Jupyter'] },
-  { category: '개발도구', items: ['VS Code', 'Eclipse', 'IntelliJ IDEA', 'DBeaver', 'SQL Developer', 'Postman'] },
+  { category: '협업툴', items: ['GitHub', 'Notion', 'Figma', 'Colab', 'Jupyter', 'Claude Code'] },
+  { category: '개발도구', items: ['VS Code', 'Eclipse', 'IntelliJ IDEA', 'DBeaver', 'SQL Developer', 'Postman', 'Chrome Extension'] },
 ];
 
 export const ABOUT_SECTIONS = [
@@ -85,6 +85,17 @@ export const PROJECTS = [
     tags: ['React', 'FastAPI', 'PostgreSQL', 'Docker'],
     github: 'https://github.com/Dongk51/sojang-ai.git',
     deploy: 'https://sojang-ai.vercel.app',
+  },
+    {
+    id: 'blog-maset',
+    name: '블로그마스터',
+    desc: '네이버 블로그 게시글 자동화 프로그램',
+    period: '2026.03',
+    members: '1인 (개인 프로젝트)',
+    role: 'Full Stack',
+    tags: ['Next.js', 'Express.js', 'Supabase', 'Gemini API', 'Chrome Extension', 'Puppeteer', 'Node.js'],
+    github: 'https://github.com/Dongk51/blog-master.git',
+    deploy: 'https://frontend-84company.vercel.app',
   },
 ];
 
